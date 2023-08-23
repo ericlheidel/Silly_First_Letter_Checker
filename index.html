@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>First Letter Checker</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="title-div">
+            <h1>Does My Name Start with a(n)</h1>
+            <select id="letter-select">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+                <option>F</option>
+                <option>G</option>
+                <option>H</option>
+                <option>I</option>
+                <option>J</option>
+                <option>K</option>
+                <option>L</option>
+                <option>M</option>
+                <option>N</option>
+                <option>O</option>
+                <option>P</option>
+                <option>Q</option>
+                <option>R</option>
+                <option>S</option>
+                <option>T</option>
+                <option>U</option>
+                <option>V</option>
+                <option>W</option>
+                <option>X</option>
+                <option>Y</option>
+                <option>Z</option>
+            </select>
+            <h1>?</h1>
+        </div>
+        <input id="input-el" type="text" placeholder="Enter a Name">
+        <button id="input-btn" onclick="doesMyNameStartWith()">Let's Find Out</button>
+        <button id="clear-btn" onclick="reset()">Clear</button>
+        <div id="input-div">
+            <h2 id="input-text"></h2>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

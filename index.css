@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline;
+    margin: auto 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    display: flex;
+    margin: auto;
+    /* text-transform: uppercase */
+}
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+select {
+    display: inline;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+#title-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
